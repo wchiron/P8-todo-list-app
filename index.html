@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" data-framework="javascript">
+	<head>
+		<meta charset="utf-8">
+		<title>To-do list app</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+		<link rel="stylesheet" href="node_modules/todomvc-common/base.min.css">
+		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.min.css">
+	</head>
+	<body>
+		<section class="todoapp">
+			<header class="header">
+				<h1>todos</h1>
+				<input class="new-todo" placeholder="What needs to be done?" autofocus>
+			</header>
+			<section class="main">
+				<input class="toggle-all" type="checkbox">
+				<label for="toggle-all">Mark all as complete</label>
+				<ul class="todo-list"></ul>
+			</section>
+			<footer class="footer">
+				<span class="todo-count"></span>
+				<ul class="filters">
+					<li>
+						<a href="#/" class="selected">All</a>
+					</li>
+					<li>
+						<a href="#/active">Active</a>
+					</li>
+					<li>
+						<a href="#/completed">Completed</a>
+					</li>
+				</ul>
+				<button class="clear-completed">Clear completed</button>
+			</footer>
+		</section>
+		<footer class="info">
+			<p>Double-click to edit a todo</p>
+			<p>Created by Oscar Godson</p>
+			<p>Refactored by Christoph Burgmer</p>
+		</footer>
+		<!-- <script src="node_modules/todomvc-common/base.js"></script> -->
+		<script src="js/helpers.min.js"></script>
+		<script src="js/store.min.js"></script>
+		<script src="js/model.min.js"></script>
+		<script src="js/template.min.js"></script>
+		<script src="js/view.min.js"></script>
+		<script src="js/controller.min.js"></script>
+		<script src="js/app.min.js"></script>
+	</body>
+</html>
